@@ -2,10 +2,22 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+*{text-decoration: none !important;}
+
+[data-bs-theme="dark"] {
+  --bs-body-bg: #212529;
+  --bs-body-color: #ffffff;
+}
+
+[data-bs-theme="light"] {
+  --bs-body-bg: #faebd7;
+  --bs-body-color: #000000;
+
+}
+
 body {
   padding-bottom: 3rem;
   color: rgb(var(--bs-tertiary-color-rgb));
-  background-color: antiquewhite;
   
 }
 
@@ -86,3 +98,4 @@ body {
     margin-top: 7rem;
   }
 }
+
