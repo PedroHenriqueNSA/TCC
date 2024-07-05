@@ -12,20 +12,26 @@
     }
 
     body {
-    padding-bottom: 3rem;
-    color: rgb(var(--bs-tertiary-color-rgb));
-    
-    }
+        /* padding-bottom: 3rem; */
+        color: rgb(var(--bs-tertiary-color-rgb));
+        height: 100vh;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        }
 
     footer {
         background-color: #212529;
         text-align: center;
         padding: 20px;
-        bottom: 0;
+        /* bottom: 0; */
         width: 100%;
         color: white;
     }
-
+    
+    footer a{
+        color: blue;
+    }
     .nav-link{
   
         color: white !important;
@@ -216,9 +222,9 @@ a {
     color: #000000; 
 }
 
-section {
+/* section {
   padding: 20px;
-}
+} */
 
 .card{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
@@ -265,6 +271,7 @@ margin-bottom: 15px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background-color: #f9f9f9;
+    color: #000000;
   }
   
   .game-info {

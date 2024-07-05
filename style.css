@@ -1,19 +1,1 @@
-*{text-decoration: none !important;}
-
-[data-bs-theme="dark"] {
-  --bs-body-bg: #212529;
-  --bs-body-color: #ffffff;
-}
-
-[data-bs-theme="light"] {
-  --bs-body-bg: #faebd7;
-  --bs-body-color: #000000;
-
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-}
 
